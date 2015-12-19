@@ -5,12 +5,11 @@ Created on 15-Dec-2015
 @ID    : cs13b027
 '''
 
-import subprocess
-import sys
-import threading
 import time
 
 from selenium import webdriver
+import subprocess
+import threading
 
 
 ans = ""
