@@ -1,15 +1,15 @@
 '''
-Created on 15-Dec-2015
+Created on 04-Jan-2016
 
 @author: Hemanth Kumar Tirupati
 @ID    : cs13b027
+@about: This file is about creating Memory Signatures for various web pages
 '''
-
-import time
 
 from selenium import webdriver
 import subprocess
 import threading
+import time
 
 
 ans = ""
@@ -40,7 +40,7 @@ class browserThread (threading.Thread):
         threadLock.acquire()
         startLoad=0
         threadLock.release()
-    
+        
 class signatureThread (threading.Thread):
     def __init__(self, website, counter, bthread):
         threading.Thread.__init__(self);
@@ -49,16 +49,15 @@ class signatureThread (threading.Thread):
         self.bthread = bthread
         
     def run(self):
-        fo = open("../data/" + self.website + str(self.counter), "w")
+        fo = open("../data/webMd/raw_data/" + self.website + str(self.counter), "w")
         pids = ""
 
         global startLoad
-        
         threadLock.acquire()
-        startLoad=1
+        startLoad = 1
         threadLock.release()
-        
-        while pids == "" or len(pids.splitlines())!=2:
+        print startLoad
+        while pids == "" or len(pids.splitlines()) != 2:
             if (not self.bthread.is_alive()) and startLoad==0:
                 return;
             pids = subprocess.check_output("./scanChromeProcess.sh").rstrip()
@@ -71,24 +70,28 @@ class signatureThread (threading.Thread):
         ans=""
         while 1:
             anon = subprocess.check_output(["./anonMemory.sh", pid])
+            #print "anon", anon
             if anon == "" or anon == "0":
                 break;
-            ans+=str(time) + " " + anon[:len(anon) - 2] + "\n";
-            #fo.write(str(time) + " " + anon[:len(anon) - 2] + "\n")
-            time = time+1;
+            ans += str(time) + " " + anon[:len(anon) - 2] + "\n";
+            # fo.write(str(time) + " " + anon[:len(anon) - 2] + "\n")
+            time = time + 1;
         fo.write(ans)
         fo.close()
         
-with open("../data/filtered.txt", "r") as f:
+namesObject = open("../data/webMd/webMdCommonNames.txt", "r");
+
+with open("../data/webMd/webMdCommon.txt", "r") as f:
     for website in f:
         webpage = "http://" + website.rstrip()
+        pageName = namesObject.readline().strip()
         print webpage
         for counter in range(1, 6):
             print "counter:", counter
             driver = webdriver.Chrome(browserDriver);
             bthread = browserThread(webpage)
-            sthread = signatureThread(website.rstrip(), counter, bthread)
-            sthread.start()
+            sthread = signatureThread(pageName, counter, bthread)
+            sthread.start() 
             bthread.start()
             bthread.join()
             sthread.join()

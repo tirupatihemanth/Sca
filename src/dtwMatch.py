@@ -54,10 +54,9 @@ class dtwThread(threading.Thread):
         global minWebsite
         global matchDict
         dbSignature = readSignature(dataDir+self.fileName)
+        #Remember that these signatures have a zero prepended which makes the job a little bit easier in dtw arlgorithm
         m = len(dbSignature)
         n = len(targetSignature)
-        #print "m: ", m
-        #print "n: ", n
         dtwArray = self.createDTWArray(m-1, n-1);
         #print "reached dtw"
         for i in range(1, m):
@@ -67,7 +66,7 @@ class dtwThread(threading.Thread):
         website = self.fileName[:len(self.fileName)-1];
         #print "finished dtw"
         with threadLock:
-            print "website "+website
+            print "website "+website+" "+str(dtwArray[m-1][n-1])
             if website in matchDict:
                 if len(matchDict[website])==ITER-1:
                     matchDict[website].append(dtwArray[m-1][n-1]);
@@ -79,10 +78,10 @@ class dtwThread(threading.Thread):
                     matchDict[website].append(dtwArray[m-1][n-1]);
             else:
                 matchDict[website] = [dtwArray[m-1][n-1]];
-            if website in debugDict:
-                debugDict[website].append(dtwArray[m-1][n-1])
-            else:
-                debugDict[website] = [dtwArray[m-1][n-1]]
+#             if website in debugDict:
+#                 debugDict[website].append(dtwArray[m-1][n-1])
+#             else:gmail
+#                 debugDict[website] = [dtwArray[m-1][n-1]]
 
 def scan(targetFile):
     global target, targetSignature, matchDict,minValue, minWebsite,debugDict

@@ -1,278 +1,135 @@
-website blogger.com
-website bing.com
-website bing.com
-website blogspot.com
-website blogger.com
-website bing.com
-website blogger.com
-website blogspot.com
-website blogspot.com
-website blogger.com
-website blogger.com
-website bing.com
-website bing.com
-website blogspot.com
-website blogspot.com
-website ask.com
-website dailymotion.com
-website google.com
-website flipkart.com
-website google.com
-website google.com
-website google.com
-website ask.com
-website baidu.com
-website rakuten.co.jp
-website google.com
-website sohu.com
-website flipkart.com
-website onclickads.net
-website flipkart.com
-website github.com
-website t.co
-website twitter.com
-website ask.com
-website t.co
-website flipkart.com
-website t.co
-website t.co
-website dailymotion.com
-website dailymotion.com
-website onclickads.net
-website popads.net
-website facebook.com
-website dailymotion.com
-website t.co
-website ask.com
-website flipkart.com
-website booking.com
-website wikipedia.org
-website booking.com
-website baidu.com
-website wordpress.com
-website onclickads.net
-website instagram.com
-website wordpress.com
-website onclickads.net
-website popads.net
-website onclickads.net
-website facebook.com
-website instagram.com
-website wordpress.com
-website wordpress.com
-website ask.com
-website github.com
-website soso.com
-website stackoverflow.com
-website baidu.com
-website wikipedia.org
-website adcash.com
-website baidu.com
-website baidu.com
-website aliexpress.com
-website github.com
-website popads.net
-website github.com
-website aliexpress.com
-website paypal.com
-website reddit.com
-website youtube.com
-website reddit.com
-website adcash.com
-website wikipedia.org
-website craigslist.org
-website linkedin.com
-website soso.com
-website dailymotion.com
-website wordpress.com
-website popads.net
-website booking.com
-website Naver.com
-website craigslist.org
-website booking.com
-website aliexpress.com
-website facebook.com
-website craigslist.org
-website reddit.com
-website linkedin.com
-website linkedin.com
-website linkedin.com
-website adcash.com
-website wikipedia.org
-website imgur.com
-website msn.com
-website craigslist.org
-website wikipedia.org
-website stackoverflow.com
-website reddit.com
-website amazon.com
-website soso.com
-website espn.go.com
-website facebook.com
-website pixnet.net
-website sogou.com
-website linkedin.com
-website stackoverflow.com
-website youtube.com
-website amazon.com
-website youtube.com
-website booking.com
-website stackoverflow.com
-website msn.com
-website netflix.com
-website netflix.com
-website msn.com
-website youtube.com
-website ebay.com
-website ok.ru
-website reddit.com
-website kat.cr
-website instagram.com
-website vk.com
-website netflix.com
-website soso.com
-website sogou.com
-website paypal.com
-website paypal.com
-website craigslist.org
-website instagram.com
-website kat.cr
-website espn.go.com
-website instagram.com
-website espn.go.com
-website sogou.com
-website adcash.com
-website vk.com
-website soso.com
-website mail.ru
-website ebay.com
-website netflix.com
-website aliexpress.com
-website msn.com
-website yandex.ru
-website vk.com
-website facebook.com
-website sogou.com
-website go.com
-website yandex.ru
-website kat.cr
-website mail.ru
-website kat.cr
-website paypal.com
-website aliexpress.com
-website outbrain.com
-website mail.ru
-website yandex.ru
-website pinterest.com
-website ok.ru
-website imgur.com
-website microsoft.com
-website pinterest.com
-website mi.com
-website sogou.com
-website Naver.com
-website pinterest.com
-website outbrain.com
-website vk.com
-website netflix.com
-website stackoverflow.com
-website msn.com
-website vk.com
-website dropbox.com
-website ebay.com
-website amazon.com
-website adcash.com
-website amazon.com
-website cnn.com
-website imgur.com
-website pinterest.com
-website Naver.com
-website mi.com
-website Naver.com
-website dropbox.com
-website espn.go.com
-website espn.go.com
-website outbrain.com
-website imgur.com
-website dropbox.com
-website yahoo.com
-website tmall.com
-website twitter.com
-website yahoo.com
-website go.com
-website diply.com
-website yandex.ru
-website microsoft.com
-website microsoft.com
-website outbrain.com
-website ebay.com
-website imgur.com
-website mail.ru
-website pixnet.net
-website twitter.com
-website ok.ru
-website go.com
-website dropbox.com
-website dropbox.com
-website kat.cr
-website ebay.com
-website outbrain.com
-website twitter.com
-website ok.ru
-website mail.ru
-website github.com
-website yahoo.com
-website pixnet.net
-website cnn.com
-website cnn.com
-website amazon.com
-website tmall.com
-website pinterest.com
-website twitter.com
-website cnn.com
-website popads.net
-website go.com
-website ok.ru
-website go.com
-website pixnet.net
-website tmall.com
-website mi.com
-website Naver.com
-website youtube.com
-website paytm.com
-website paytm.com
-website paytm.com
-website paytm.com
-website paytm.com
-website diply.com
-website cnn.com
-website yandex.ru
-website diply.com
-website pixnet.net
-website tumblr.com
-website yahoo.com
-website hao123.com
-website microsoft.com
-website tmall.com
-website yahoo.com
-website mi.com
-website tumblr.com
-website tumblr.com
-website tumblr.com
-website diply.com
-website paypal.com
-website microsoft.com
-website diply.com
-website hao123.com
-website hao123.com
-website tumblr.com
-website mi.com
-website hao123.com
-website tmall.com
-website hao123.com
-website rakuten.co.jp
-website rakuten.co.jp
-website rakuten.co.jp
-website rakuten.co.jp
-../data/attack_data/processed_27000 instagram.com 566935.2
-{'msn.com': [825780, 831428, 799024, 1043992, 854240], 'ok.ru': [1970720, 2057832, 2660036, 2391312, 928104], 'wikipedia.org': [13485852, 13486276, 13499212, 13509044, 13494208], 'youtube.com': [5468196, 6417040, 5171752, 5404484, 11862528], 'sohu.com': [9223372036854775807], 'kat.cr': [2027984, 2249524, 2053564, 5331864, 2482180], 'rakuten.co.jp': [17028944, 76633488, 90868104, 83779432, 161941956], 'stackoverflow.com': [4234756, 3841728, 2538012, 4270216, 2540648], 'dropbox.com': [35392812, 35030384, 36897956, 52054040, 35291672], 'pixnet.net': [12631272, 6164656, 9052148, 12928468, 24457512], 'mail.ru': [7524020, 7925052, 6810744, 7660180, 8478420], 'adcash.com': [1677788, 1483644, 982084, 795300, 1254880], 'flipkart.com': [421576, 1285148, 417840, 1307148, 456412], 'onclickads.net': [13786484, 14660264, 14615288, 14663716, 13971856], 'tmall.com': [8564572, 14148604, 15717892, 15878776, 48830948], 'linkedin.com': [3531008, 2082744, 2209192, 2148032, 2466740], 'bing.com': [12608732, 12614296, 12624764, 12625048, 13545760], 'booking.com': [6938156, 6911072, 8281940, 9379560, 8942332], 'baidu.com': [4859628, 4895648, 5003792, 4910344, 4859564], 'mi.com': [19848584, 29317868, 14275288, 18783552, 59241124], 'Naver.com': [716588, 8849432, 3393044, 6867292, 6238872], 'twitter.com': [17310312, 5611680, 5596924, 5850444, 7520524], 't.co': [17471716, 17467104, 17451832, 17469876, 17455024], 'facebook.com': [1984684, 3041280, 5075612, 3406868, 3729048], 'netflix.com': [3283252, 3255132, 3299136, 3306416, 3175652], 'ebay.com': [5877340, 2454300, 4747376, 3341720, 8089868], 'ask.com': [3570132, 1627308, 2033512, 1961672, 1691388], 'blogger.com': [8140704, 8184764, 8162816, 8224440, 8165260], 'craigslist.org': [3818480, 3784860, 3791708, 3869672, 3834108], 'diply.com': [36434796, 27768796, 30239436, 33581968, 44368516], 'reddit.com': [3882928, 1098344, 772940, 3371920, 1560108], 'github.com': [834740, 776960, 659228, 630384, 939756], 'espn.go.com': [34233668, 41037880, 38942068, 44128276, 35789604], 'go.com': [39107772, 35234744, 33776656, 39090436, 34074696], 'paytm.com': [56568208, 82325712, 66417356, 59359448, 69456276], 'popads.net': [6450876, 6808488, 6801744, 6459752, 6930244], 'cnn.com': [118280468, 106409032, 130072112, 137416136, 125097160], 'amazon.com': [23874540, 20673548, 19810256, 22345880, 42439724], 'blogspot.com': [8186740, 9011116, 8975088, 8185068, 7798636], 'imgur.com': [15877476, 14118032, 15702776, 17833084, 15126792], 'yahoo.com': [38304684, 46553436, 31647792, 55186536, 50328848], 'yandex.ru': [1805336, 1766924, 1956500, 2142292, 1764840], 'wordpress.com': [10463348, 10453300, 9735888, 10452904, 10463312], 'pinterest.com': [22778880, 24032408, 21716256, 17485564, 22077696], 'instagram.com': [539924, 593924, 629352, 471000, 600476], 'tumblr.com': [142971432, 87161296, 94210648, 111180264, 112656224], 'google.com': [348284, 1062816, 1289228, 632820, 563884], 'outbrain.com': [12692360, 10170660, 11497080, 13851692, 6198736], 'microsoft.com': [6442944, 2662952, 2323704, 5693332, 12224000], 'paypal.com': [2021260, 917972, 1255048, 2134800, 1791408], 'dailymotion.com': [710668, 657524, 749328, 729108, 656488], 'aliexpress.com': [13717996, 13905572, 13431160, 24329508, 14477240], 'sogou.com': [6452984, 6429108, 7109156, 6385472, 6476228], 'vk.com': [2564116, 2113660, 2548952, 1999404, 2494532], 'hao123.com': [12927056, 16994196, 18541952, 18466540, 19737720], 'soso.com': [6382428, 6249316, 6419960, 6241228, 6407028]}
+website facebook.com 725624
+website gmail.com 3432760
+website facebook.com 448108
+website gmail.com 3045500
+website gmail.com 2485440
+website gmail.com 3064740
+website google.com 1597324
+website google.com 1725452
+website facebook.com 541100
+website google.com 1413404
+website facebook.com 793724
+website github.com 1380108
+website github.com 1190712
+website facebook.com 413512
+website google.com 2153848
+website google.com 1523984
+website gmail.com 3067768
+website github.com 1192952
+website github.com 3295200
+website quora.com 2539060
+website quora.com 24967952
+website github.com 8370068
+website quora.com 7865292
+website quora.com 1877216
+website quora.com 89730444
+../data/attack_data/processed_20752 facebook.com 584413.6
+{}
+website facebook.com 824424
+website facebook.com 916200
+website gmail.com 4807784
+website gmail.com 5239492
+website gmail.com 4812688
+website gmail.com 4002072
+website facebook.com 867516
+website google.com 1909368
+website google.com 800532
+website facebook.com 720112
+website facebook.com 1729980
+website google.com 1019668
+website google.com 1164976
+website github.com 1191888
+website gmail.com 4811232
+website github.com 1242668
+website github.com 845340
+website github.com 1203772
+website google.com 687956
+website quora.com 943516
+website github.com 1250620
+website quora.com 12223156
+website quora.com 1735612
+website quora.com 1340244
+website quora.com 52258884
+../data/attack_data/processed_9508 facebook.com 1011646.4
+{}
+website facebook.com 2359860
+website facebook.com 1268240
+website gmail.com 5077460
+website facebook.com 2210044
+website gmail.com 4784732
+website gmail.com 4804336
+website gmail.com 4291076
+website google.com 349240
+website facebook.com 2272316
+website github.com 1769264
+website facebook.com 3151780
+website google.com 286348
+website gmail.com 4792012
+website google.com 635320
+website google.com 411180
+website github.com 1801352
+website github.com 1127396
+website google.com 731388
+website github.com 1713136
+website quora.com 1137348
+website quora.com 13065892
+website github.com 1504500
+website quora.com 1731872
+website quora.com 2849968
+website quora.com 55710212
+../data/attack_data/processed_17283 google.com 482695.2
+{}
+website facebook.com 4298896
+website facebook.com 1705004
+website facebook.com 1846092
+website facebook.com 4634780
+website gmail.com 236640
+website gmail.com 176180
+website gmail.com 247716
+website gmail.com 247004
+website facebook.com 2046548
+website github.com 11063956
+website github.com 10892172
+website github.com 11090432
+website google.com 3027372
+website google.com 2709804
+website google.com 3107344
+website google.com 7151552
+website github.com 17674420
+website gmail.com 522612
+website quora.com 24857440
+website google.com 2643020
+website github.com 49282864
+website quora.com 50789732
+website quora.com 62776700
+website quora.com 70156432
+website quora.com 175084828
+../data/attack_data/processed_25088 gmail.com 286030.4
+{}
+website facebook.com 930256
+website facebook.com 947748
+website facebook.com 772860
+website facebook.com 560340
+website gmail.com 1757736
+website gmail.com 1833520
+website gmail.com 1764896
+website github.com 976560
+website gmail.com 1656692
+website facebook.com 1523000
+website google.com 391932
+website google.com 336988
+website google.com 521860
+website github.com 1024660
+website github.com 1055620
+website google.com 473620
+website gmail.com 1753968
+website github.com 706472
+website google.com 464444
+website quora.com 529952
+website quora.com 10831740
+website github.com 995248
+website quora.com 2042820
+website quora.com 1358464
+website quora.com 47320040
+../data/attack_data/processed_14980 google.com 437768.8
+{}

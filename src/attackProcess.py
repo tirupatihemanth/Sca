@@ -13,6 +13,8 @@ from processAttackFile import processAttackFile
 
 #These processes have already started even before starting our attack process
 #Let's wait to see what new tabs he opens
+#We can do nothing for now about all those websites that he has already opened
+
 pidString = subprocess.check_output("./scanChromeProcess.sh").rstrip()
 prevPids = pidString.splitlines()
 
@@ -26,7 +28,8 @@ class spyThread(threading.Thread):
         fileName = "../data/attack_data/"+self.pid; 
         fo = open(fileName,'w');
         ans="";
-        #for now timeout is 10 seconds
+        #for now timeout is 5 seconds i.e we are giving at most 5 seconds for the page to load
+        #May be in the future we can adjust this timeout duration based on the bandwidth
         timeout = time.time()+5;
         counter=1
         

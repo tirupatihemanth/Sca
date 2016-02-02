@@ -1,8 +1,8 @@
 dir = '../data/processed_data/';
 websites = importdata('../data/filtered.txt');
 for iter = 1:size(websites)
-    website = websites(iter,1)
-    website = {'tumblr.com'}
+    website = websites(iter,1);
+    website = {'facebook.com'}
     for counter=1:5
         fileName = strcat(cellstr(website), num2str(counter));
         processed = strcat(dir, fileName);
