@@ -1,6 +1,1 @@
-google.com
-facebook.com
-quora.com
-github.com
-gmail.com
-youtube.com
+www.google.com

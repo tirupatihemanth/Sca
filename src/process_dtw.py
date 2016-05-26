@@ -4,21 +4,23 @@ Created on 19-Dec-2015
 @author: Hemanth Kumar Tirupati
 @ID    : cs13b027
 '''
+from subprocess import call
+import subprocess
+
 
 start=-1
 base=0
 lastData=""
 first = [0,0]
-attackDir = "../data/attack_data/";
 
-def processAttackFile(pidString):
+def process_dtw(inFilePath, outFilePath):
     global start,first,lastData,base,attackDir
-    fo = open(attackDir+"processed_"+pidString,"w")
+    fo = open(outFilePath,"w")
     start=-1
     base=0
     lastData=""
     first = [0,0]
-    with open(attackDir+pidString,"r") as f:
+    with open(inFilePath,"r") as f:
         global first
         for data in f:
             var = [int(i) for i in data.split()]
@@ -47,3 +49,7 @@ def processAttackFile(pidString):
     lastData=""
     fo.write(str(first[0]-base)+" "+str(first[1]))
     fo.close()
+
+def processAll_dtw():
+    call(["sh", "processBasic_data.sh"])
+    
