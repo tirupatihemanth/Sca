@@ -52,22 +52,43 @@ def process_jackard(inFilePath, outFilePath):
 #     outFile.close()
 
 #To build initial signature database from the initial raw data
+#TODO: Change the way processing is done
+#Finished Doing the above job. Now this function is Depracated
+# def processSig_jackard(inFilePath, outFilePath):
+#     with open(inFilePath) as f:
+#         sig = {};
+#         keyList = [];
+#         for data in f:
+#             var = int(data.split()[1])
+#             if var not in sig:
+#                 sig[var] = 1;
+#                 keyList.append(var);
+#             else:
+#                 sig[var] = sig[var]+1;
+#     outFile = open(outFilePath,"w");
+#     for key in keyList:
+#         outFile.write(str(key)+" "+str(sig[key])+"\n");
+#     outFile.close();
+
 def processSig_jackard(inFilePath, outFilePath):
     with open(inFilePath) as f:
         sig = {};
+        prevKey = 0;
         keyList = [];
         for data in f:
-            var = int(data.split()[1])
-            if var not in sig:
-                sig[var] = 1;
-                keyList.append(var);
-            else:
-                sig[var] = sig[var]+1;
-    outFile = open(outFilePath,"w");
+            var = int(data.split()[1]);
+            if var!=prevKey:
+                prevKey = var;
+                if var not in keyList:
+                    sig[var]=1;
+                    keyList.append(var);
+                else:
+                    sig[var] = sig[var]+1;
+    outFile = open(outFilePath, "w");
     for key in keyList:
         outFile.write(str(key)+" "+str(sig[key])+"\n");
     outFile.close();
-    
+                
 def processAll_jackard():
     #call(["sh", "processBasic_data.sh"])
     files = os.listdir(inDir);

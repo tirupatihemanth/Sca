@@ -33,19 +33,33 @@ class spyThread(threading.Thread):
         #for now timeout is 5 seconds i.e we are giving at most 5 seconds for the page to load
         #May be in the future we can adjust this timeout duration based on the current bandwidth or 
         #May be based on the changes in the data resident memory if change is sluggish we just take samples less frequently
-        timeout = time.time()+5;
+        timeout = time.time()+20;
         counter=1
-        
+        statmObject = open("/proc/"+self.pid+"/statm", "r");
         while 1:
-            anon = subprocess.check_output(["./drsMemory.sh", self.pid])
-            if anon == "" or anon == "0" or len(anon)<=2 or len(anon) > 10 or time.time()>=timeout:
+            try:       
+                anon = str(statmObject.readline());
+            except(OSError, IOError) as e:
+                #print "FileIOError";
+                statmObject.close();
                 break;
-            ans+=str(counter) + " "+anon[:len(anon)-2]+"\n";
+#             anon = subprocess.check_output(["./drsMemory.sh", self.pid])
+#             if anon == "" or anon == "0" or len(anon)<=2 or len(anon) > 10 or time.time()>=timeout:
+#                 break;
+            statmObject.flush();
+            statmObject.seek(0);
+            if not anon:
+                continue;
+            anon = anon.split()[5];
+            if int(anon)<2048:
+                continue;
+            ans+=str(counter) + " "+anon+"\n";
             counter+=1;
-            
+            if time.time()>=timeout:
+                break;
         fo.write(ans)
         fo.close()
-        print "AttackPid: "+pid
+        print "AttackPid: "+self.pid
         process_jackard("../data/attack_data/"+self.pid, "../data/attack_data/processed_jackard"+self.pid);
         scan_jackard("../data/attack_data/processed_jackard"+self.pid)
         #process_dtw("../data/attack_data/"+self.pid, "../data/attack_data/processed_dtw"+self.pid);
@@ -54,6 +68,8 @@ class spyThread(threading.Thread):
 while 1:
     pidString = subprocess.check_output("./scanChromeProcess.sh").rstrip()
     curPids = pidString.splitlines()
+#     print "prevPids: "+str(prevPids);
+#     print "curPids: "+str(curPids);
     #print "prevPids: "
     #print prevPids
     #print "curPids:"
@@ -63,9 +79,8 @@ while 1:
             print "spying pids: "+pid
             spythread = spyThread(pid);
             spythread.start()
-
     prevPids = curPids;
-    time.sleep(1);
+    time.sleep(0.1);
 #     prevPids = [pid for pid in prevPids if pid in curPids]
 #     
 #     for pid in curPids:

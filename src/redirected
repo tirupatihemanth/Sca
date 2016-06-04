@@ -1,116 +1,132 @@
-spying pids: 10851
-AttackPid: 10851
-['www.gmail.com1', '.fuse_hidden000017ec00000001', 'www.bing.com1', 'www.bing.com2', 'www.bing.com3', 'www.bing.com4', 'www.bing.com5', 'www.facebook.com1', 'www.facebook.com2', 'www.facebook.com3', 'www.facebook.com4', 'www.facebook.com5', 'www.gmail.com2', 'www.gmail.com3', 'www.gmail.com4', 'www.gmail.com5', 'www.google.com1', 'www.google.com2', 'www.google.com3', 'www.google.com4', 'www.google.com5', 'www.quora.com1', 'www.quora.com2', 'www.quora.com3', 'www.quora.com4', 'www.quora.com5', 'www.youtube.com1', 'www.youtube.com2', 'www.youtube.com3', 'www.youtube.com4', 'www.youtube.com5']
-website 1.00000 0.00000
+spying pids: 17743
+AttackPid: 17743
+['www.gmail.com1', 'www.bing.com1', 'www.bing.com2', 'www.bing.com3', 'www.bing.com4', 'www.bing.com5', 'www.facebook.com1', 'www.facebook.com2', 'www.facebook.com3', 'www.facebook.com4', 'www.facebook.com5', 'www.github.com1', 'www.github.com2', 'www.github.com3', 'www.github.com4', 'www.github.com5', 'www.gmail.com2', 'www.gmail.com3', 'www.gmail.com4', 'www.gmail.com5', 'www.google.com1', 'www.google.com2', 'www.google.com3', 'www.google.com4', 'www.google.com5', 'www.quora.com1', 'www.quora.com2', 'www.quora.com3', 'www.quora.com4', 'www.quora.com5', 'www.youtube.com1', 'www.youtube.com2', 'www.youtube.com3', 'www.youtube.com4', 'www.youtube.com5']
+website: www.gmail.com jI1: 1.000000 jI2: 0.857143 myIdx1: 1.000000
 
-21 4DIVIDE BY ZERO IN JACKARD INDEX
- 
-1 DIVIDE BY ZERO IN JACKARD INDEX
+7 6 6 6 6
+website: www.bing.com jI1: 1.000000 jI2: 0.857143 myIdx1: 1.000000
+
+7 6 6 6 6
+website: www.bing.com jI1: 1.000000 jI2: 0.833333 myIdx1: 0.833333
+
+6 5 5 5 6
 DIVIDE BY ZERO IN JACKARD INDEX
 
+website: www.bing.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-1
-website 1.00000 0.00000
+0 0 0 0 0
+website: www.bing.com jI1: 1.000000 jI2: 0.833333 myIdx1: 1.000000
 
-1028 4 1 1
-website 1.00000 0.00000
+6 5 5 5 5
+website: www.bing.com jI1: 1.000000 jI2: 0.750000 myIdx1: 0.900000
 
+12 9 9 9 10
+website: www.facebook.com jI1: 1.000000 jI2: 0.850000 myIdx1: 1.000000
+
+20 17 17 17 17
 DIVIDE BY ZERO IN JACKARD INDEX
 
-23 4 1DIVIDE BY ZERO IN JACKARD INDEX
- 1
+website: www.facebook.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-website -1.00000 -1.00000
-
-0 DIVIDE BY ZERO IN JACKARD INDEX
-0
- 0 0
-website -1.00000 -1.00000
-
-0 0 0DIVIDE BY ZERO IN JACKARD INDEX
- 0
-
+0 0 0 0 0
 DIVIDE BY ZERO IN JACKARD INDEX
-website -1.00000 -1.00000
 
-0 0 0
- 0
-website 1.00000 0.00000
+website: www.facebook.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-24 4 1 1
-website 1.00000 0.00000
+0 0 0 0 0
+website: www.facebook.com jI1: 1.000000 jI2: 0.814815 myIdx1: 1.000000
 
-903 4 1 1
-website 1.00000 0.00000
+27 22 21 21 22
+website: www.facebook.com jI1: 1.000000 jI2: 0.793103 myIdx1: 1.000000
 
-444DIVIDE BY ZERO IN JACKARD INDEX
- 
-4 1 1
-website 1.00000 0.00000
+29 23 23 23 23
+website: www.github.com jI1: 1.000000 jI2: 0.687500 myIdx1: 0.785714
 
-24 4 1 1
-website -1.00000 -1.00000
+16 11 11 11 14
+website: www.github.com jI1: 1.000000 jI2: 0.875000 myIdx1: 0.875000
 
-0 DIVIDE BY ZERO IN JACKARD INDEX
-0 0 0
+8 7 6 6 8
+website: www.github.com jI1: 1.000000 jI2: 0.750000 myIdx1: 0.857143
 
-website -1.00000 -1.00000
+8 6 6 6 7
+DIVIDE BY ZERO IN JACKARD INDEX
 
-0 0 0 0
-website -1.00000 -1.00000
+website: www.github.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-0 0 0 0
-website 1.00000 0.00000
+0 0 0 0 0
+website: www.github.com jI1: 1.000000 jI2: 0.857143 myIdx1: 0.923077
 
-984 4 1 1
-website -1.00000 -1.00000
+14 12 11 11 13
+website: www.gmail.com jI1: 1.000000 jI2: 0.812500 myIdx1: 0.928571
 
-0 0 0 0
-website 1.00000 0.00000
+16 13 13 13 14
+DIVIDE BY ZERO IN JACKARD INDEX
 
-1034 4 1 1
-website 1.00000 0.00000
+website: www.gmail.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-21 4 1 1
-website 1.00000 0.00000
+0 0 0 0 0
+website: www.gmail.com jI1: 1.000000 jI2: 0.800000 myIdx1: 1.000000
 
-162 4 1 1
-website 1.00000 0.00000
+15 12 12 12 12
+DIVIDE BY ZERO IN JACKARD INDEX
 
-59 4 1 1
-website -1.00000 -1.00000
+website: www.gmail.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-0 0 0 0
-website 1.00000 0.00000
+0 0 0 0 0
+DIVIDE BY ZERO IN JACKARD INDEX
 
-192 4 1 1
-website 1.00000 0.00000
+website: www.google.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-22 4 1 1
-website -1.00000 -1.00000
+0 0 0 0 0
+DIVIDE BY ZERO IN JACKARD INDEX
 
-0 0 0 0
-website -1.00000 -1.00000
+website: www.google.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-0 0 0 0
-website 1.00000 0.00000
+0 0 0 0 0
+website: www.google.com jI1: 1.000000 jI2: 0.800000 myIdx1: 0.800000
 
-65 4 1 1
-website 1.00000 0.00000
+5 4 4 4 5
+website: www.google.com jI1: 1.000000 jI2: 0.857143 myIdx1: 0.857143
 
-127 4 1 1
-website 1.00000 0.00000
+7 6 6 6 7
+DIVIDE BY ZERO IN JACKARD INDEX
 
-21 4 1 1
-website 1.00000 0.00000
+website: www.google.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
 
-23 4 1 1
-website 1.00000 0.00000
+0 0 0 0 0
+website: www.quora.com jI1: 1.000000 jI2: 0.900000 myIdx1: 1.000000
 
-799 4 1 1
-website 1.00000 0.00000
+10 9 9 9 9
+website: www.quora.com jI1: 1.000000 jI2: 0.714286 myIdx1: 0.714286
 
-19 4 1 1
-website 1.00000 0.00000
+7 5 5 5 7
+website: www.quora.com jI1: 1.000000 jI2: 0.833333 myIdx1: 0.833333
 
-149 4 1 1
+6 5 5 5 6
+DIVIDE BY ZERO IN JACKARD INDEX
+
+website: www.quora.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
+
+0 0 0 0 0
+website: www.quora.com jI1: 1.000000 jI2: 0.666667 myIdx1: 0.666667
+
+6 4 4 4 6
+website: www.youtube.com jI1: 1.000000 jI2: 0.777778 myIdx1: 0.875000
+
+9 7 7 7 8
+DIVIDE BY ZERO IN JACKARD INDEX
+
+website: www.youtube.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
+
+0 0 0 0 0
+website: www.youtube.com jI1: 1.000000 jI2: 0.571429 myIdx1: 0.571429
+
+7 4 4 4 7
+website: www.youtube.com jI1: 1.000000 jI2: 0.666667 myIdx1: 0.666667
+
+6 4 4 4 6
+DIVIDE BY ZERO IN JACKARD INDEX
+
+website: www.youtube.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
+
+0 0 0 0 0

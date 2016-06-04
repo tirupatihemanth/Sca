@@ -32,7 +32,6 @@ debugDict={}
 minValue = sys.maxsize;
 minWebsite = "";
 target = "";
-targetSignature="";
 threadLock = threading.Lock();
 
 class jackardThread(threading.Thread):
@@ -46,13 +45,15 @@ class jackardThread(threading.Thread):
         global minWebsite
         global matchDict
         dbSignature = readSignature(dataDir+self.fileName)
-        #Remember that these signatures have a zero prepended which makes the job a little bit easier in dtw arlgorithm
+        
         intersect = {};
         union = {};
+        signatureSum=0;
         for key, val in targetSignature.items():
             if key in dbSignature:
                 intersect[key] = min(val, dbSignature[key])
                 union[key] = max(val,dbSignature[key])
+                signatureSum+=dbSignature[key];
         intersectSum=0;
         unionSum=0;
         for key, val in intersect.items():
@@ -61,17 +62,18 @@ class jackardThread(threading.Thread):
             unionSum+=val;
         jackardIdx1 = -1.0;
         jackardIdx2 = -1.0;
-        
+        myIdx1 = -1.0;
         if len(union)!=0:
             jackardIdx1 = (float)(len(intersect)/(1.0*len(union)));
-            jackardIdx2 = (float)(intersectSum/unionSum);
+            jackardIdx2 = (float)(intersectSum/(1.0*unionSum));
+            myIdx1 = (float)(intersectSum/(1.0*signatureSum));    
         else:
             print "DIVIDE BY ZERO IN JACKARD INDEX\n"
         website = self.fileName[:len(self.fileName)-1]; 
         #print "finished dtw"
         with threadLock:
-            print( 'website %s %.5f %.5f\n' %(website , jackardIdx1, jackardIdx2));
-            print unionSum, intersectSum, len(union), len(intersect);
+            print( 'website: %s jI1: %f jI2: %f myIdx1: %f\n' %(website , jackardIdx1, jackardIdx2, myIdx1));
+            print unionSum, intersectSum, len(intersect), len(union), signatureSum;
 #             if website in debugDict:
 #                 debugDict[website].append(dtwArray[m-1][n-1])
 #             else:gmail
@@ -91,6 +93,9 @@ def scan_jackard(targetFile):
         jackardthread = jackardThread(f)
         jackardthread.start()
         threadList.append(jackardthread)
+        #make it a single threaded match
+        jackardthread.join();
+        
         
     for thread in threadList:
         thread.join()
