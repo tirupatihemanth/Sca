@@ -88,7 +88,7 @@ class dtwThread(threading.Thread):
 #             else:gmail
 #                 debugDict[website] = [dtwArray[m-1][n-1]]
 
-def scan_dtw(targetFile):
+def scan_pearson(targetFile):
     global target, targetSignature, matchDict,minValue, minWebsite,debugDict
     minWebsite = ""
     minValue = sys.maxsize

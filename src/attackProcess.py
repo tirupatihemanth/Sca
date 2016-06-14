@@ -8,8 +8,8 @@ Created on Dec 18, 2015
 import subprocess
 import threading
 import time
-#from dtwMatch import scan_dtw
-#from process_dtw import process_dtw
+from dtwMatch import scan_dtw
+from process_dtw import process_dtw
 from jackardMatch import scan_jackard
 from process_jackard import process_jackard
 
@@ -33,7 +33,7 @@ class spyThread(threading.Thread):
         #for now timeout is 5 seconds i.e we are giving at most 5 seconds for the page to load
         #May be in the future we can adjust this timeout duration based on the current bandwidth or 
         #May be based on the changes in the data resident memory if change is sluggish we just take samples less frequently
-        timeout = time.time()+20;
+        timeout = time.time()+10;
         counter=1
         statmObject = open("/proc/"+self.pid+"/statm", "r");
         while 1:
@@ -60,10 +60,10 @@ class spyThread(threading.Thread):
         fo.write(ans)
         fo.close()
         print "AttackPid: "+self.pid
-        process_jackard("../data/attack_data/"+self.pid, "../data/attack_data/processed_jackard"+self.pid);
-        scan_jackard("../data/attack_data/processed_jackard"+self.pid)
-        #process_dtw("../data/attack_data/"+self.pid, "../data/attack_data/processed_dtw"+self.pid);
-        #scan_dtw("../data/attack_data/processed_dtw"+self.pid);
+        #process_jackard("../data/attack_data/"+self.pid, "../data/attack_data/processed_jackard"+self.pid);
+        #scan_jackard("../data/attack_data/processed_jackard"+self.pid)
+        process_dtw("../data/attack_data/"+self.pid, "../data/attack_data/processed_dtw"+self.pid);
+        scan_dtw("../data/attack_data/processed_dtw"+self.pid);
         
 while 1:
     pidString = subprocess.check_output("./scanChromeProcess.sh").rstrip()

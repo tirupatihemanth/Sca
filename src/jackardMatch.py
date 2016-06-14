@@ -44,8 +44,7 @@ class jackardThread(threading.Thread):
         global minValue
         global minWebsite
         global matchDict
-        dbSignature = readSignature(dataDir+self.fileName)
-        
+        dbSignature = readSignature(dataDir+self.fileName)     
         intersect = {};
         union = {};
         signatureSum=0;
@@ -74,6 +73,10 @@ class jackardThread(threading.Thread):
         with threadLock:
             print( 'website: %s jI1: %f jI2: %f myIdx1: %f\n' %(website , jackardIdx1, jackardIdx2, myIdx1));
             print unionSum, intersectSum, len(intersect), len(union), signatureSum;
+            if website not in matchDict:
+                matchDict[website] = [intersectSum];
+            elif website in matchDict:
+                matchDict[website].append(intersectSum);
 #             if website in debugDict:
 #                 debugDict[website].append(dtwArray[m-1][n-1])
 #             else:gmail
@@ -99,5 +102,16 @@ def scan_jackard(targetFile):
         
     for thread in threadList:
         thread.join()
+    maxMatch = 0;
+    maxWebsite = "";
+    for key, val in matchDict.items():
+        print key, str(val), str(sum(val));
+        temp = maxMatch;
+        maxMatch = max([maxMatch, sum(val)]);
+        if temp!=maxMatch:
+            maxWebsite = key;
+    
+    print maxWebsite, maxMatch;
+        
 #     print targetFile, minWebsite, minValue
 #     print debugDict

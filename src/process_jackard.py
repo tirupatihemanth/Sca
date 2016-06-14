@@ -9,6 +9,7 @@ from subprocess import call
 
 #inDir = "../data/processed_data/";
 inDir = "../data/raw_data/";
+#inDir = "../data/map_raw_data/";
 attackDir = "../data/attack_data/";
 outDir = "../data/processed_jackard/";
 webList = "../data/filtered.txt";

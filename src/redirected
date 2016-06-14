@@ -1,132 +1,450 @@
-spying pids: 17743
-AttackPid: 17743
-['www.gmail.com1', 'www.bing.com1', 'www.bing.com2', 'www.bing.com3', 'www.bing.com4', 'www.bing.com5', 'www.facebook.com1', 'www.facebook.com2', 'www.facebook.com3', 'www.facebook.com4', 'www.facebook.com5', 'www.github.com1', 'www.github.com2', 'www.github.com3', 'www.github.com4', 'www.github.com5', 'www.gmail.com2', 'www.gmail.com3', 'www.gmail.com4', 'www.gmail.com5', 'www.google.com1', 'www.google.com2', 'www.google.com3', 'www.google.com4', 'www.google.com5', 'www.quora.com1', 'www.quora.com2', 'www.quora.com3', 'www.quora.com4', 'www.quora.com5', 'www.youtube.com1', 'www.youtube.com2', 'www.youtube.com3', 'www.youtube.com4', 'www.youtube.com5']
-website: www.gmail.com jI1: 1.000000 jI2: 0.857143 myIdx1: 1.000000
-
-7 6 6 6 6
-website: www.bing.com jI1: 1.000000 jI2: 0.857143 myIdx1: 1.000000
-
-7 6 6 6 6
-website: www.bing.com jI1: 1.000000 jI2: 0.833333 myIdx1: 0.833333
-
-6 5 5 5 6
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.bing.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.bing.com jI1: 1.000000 jI2: 0.833333 myIdx1: 1.000000
-
-6 5 5 5 5
-website: www.bing.com jI1: 1.000000 jI2: 0.750000 myIdx1: 0.900000
-
-12 9 9 9 10
-website: www.facebook.com jI1: 1.000000 jI2: 0.850000 myIdx1: 1.000000
-
-20 17 17 17 17
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.facebook.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.facebook.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.facebook.com jI1: 1.000000 jI2: 0.814815 myIdx1: 1.000000
-
-27 22 21 21 22
-website: www.facebook.com jI1: 1.000000 jI2: 0.793103 myIdx1: 1.000000
-
-29 23 23 23 23
-website: www.github.com jI1: 1.000000 jI2: 0.687500 myIdx1: 0.785714
-
-16 11 11 11 14
-website: www.github.com jI1: 1.000000 jI2: 0.875000 myIdx1: 0.875000
-
-8 7 6 6 8
-website: www.github.com jI1: 1.000000 jI2: 0.750000 myIdx1: 0.857143
-
-8 6 6 6 7
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.github.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.github.com jI1: 1.000000 jI2: 0.857143 myIdx1: 0.923077
-
-14 12 11 11 13
-website: www.gmail.com jI1: 1.000000 jI2: 0.812500 myIdx1: 0.928571
-
-16 13 13 13 14
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.gmail.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.gmail.com jI1: 1.000000 jI2: 0.800000 myIdx1: 1.000000
-
-15 12 12 12 12
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.gmail.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.google.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.google.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.google.com jI1: 1.000000 jI2: 0.800000 myIdx1: 0.800000
-
-5 4 4 4 5
-website: www.google.com jI1: 1.000000 jI2: 0.857143 myIdx1: 0.857143
-
-7 6 6 6 7
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.google.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.quora.com jI1: 1.000000 jI2: 0.900000 myIdx1: 1.000000
-
-10 9 9 9 9
-website: www.quora.com jI1: 1.000000 jI2: 0.714286 myIdx1: 0.714286
-
-7 5 5 5 7
-website: www.quora.com jI1: 1.000000 jI2: 0.833333 myIdx1: 0.833333
-
-6 5 5 5 6
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.quora.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.quora.com jI1: 1.000000 jI2: 0.666667 myIdx1: 0.666667
-
-6 4 4 4 6
-website: www.youtube.com jI1: 1.000000 jI2: 0.777778 myIdx1: 0.875000
-
-9 7 7 7 8
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.youtube.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
-website: www.youtube.com jI1: 1.000000 jI2: 0.571429 myIdx1: 0.571429
-
-7 4 4 4 7
-website: www.youtube.com jI1: 1.000000 jI2: 0.666667 myIdx1: 0.666667
-
-6 4 4 4 6
-DIVIDE BY ZERO IN JACKARD INDEX
-
-website: www.youtube.com jI1: -1.000000 jI2: -1.000000 myIdx1: -1.000000
-
-0 0 0 0 0
+spying pids: 27074
+AttackPid: 27074
+website www.bing.com 1096555
+website www.bing.com 1076648
+website www.bing.com 1096555
+website www.bing.com 1076659
+website www.facebook.com 431281
+website www.facebook.com 363889
+website www.bing.com 1061820
+website www.facebook.com 422282
+website www.facebook.com 431376
+website www.facebook.com 445847
+website www.github.com 214566
+website www.github.com 200252
+website www.github.com 202747
+website www.github.com 207617
+website www.github.com 159579
+website www.gmail.com 553356
+website www.gmail.com 563207
+website www.gmail.com 588999
+website www.gmail.com 571651
+website www.google.com 29963
+website www.gmail.com 556864
+website www.google.com 13534
+website www.google.com 23709
+website www.google.com 34950
+website www.google.com 19716
+website www.quora.com 197852
+website www.quora.com 3982595
+website www.quora.com 260639
+website www.youtube.com 401240
+website www.quora.com 131965
+website www.youtube.com 446791
+website www.youtube.com 273775
+website www.quora.com 125402
+website www.youtube.com 430820
+website www.youtube.com 419224
+www.facebook.com [431281, 363889, 422282, 431376, 445847] 2094675
+www.gmail.com [553356, 563207, 588999, 571651, 556864] 2834077
+www.google.com [29963, 13534, 23709, 34950, 19716] 121872
+www.youtube.com [401240, 446791, 273775, 430820, 419224] 1971850
+www.github.com [214566, 200252, 202747, 207617, 159579] 984761
+www.quora.com [197852, 3982595, 260639, 131965, 125402] 4698453
+www.bing.com [1096555, 1076648, 1096555, 1076659, 1061820] 5408237
+www.google.com 121872
+spying pids: 12285
+spying pids: 12356
+AttackPid: 12285
+website www.bing.com 298679
+website www.bing.com 287148
+website www.bing.com 298679
+website www.bing.com 287159
+website www.bing.com 282548
+website www.facebook.com 44548
+website www.facebook.com 40085
+website www.facebook.com 45243
+website www.facebook.com 49214
+website www.facebook.com 47293
+website www.github.com 26306
+website www.github.com 22606
+website www.github.com 24733
+website www.github.com 18107
+website www.github.com 23260
+website www.gmail.com 79849
+website www.gmail.com 80117
+website www.gmail.com 76688
+website www.gmail.com 80263
+website www.google.com 104246
+website www.gmail.com 74522
+website www.google.com 105258
+website www.google.com 100968
+website www.google.com 101019
+website www.google.com 93724
+website www.quora.com 31235
+website www.quora.com 30455
+website www.youtube.com 42565
+website www.quora.com 32456
+website www.quora.com 4366212
+website www.quora.com 32142
+website www.youtube.com 50881
+website www.youtube.com 32155
+website www.youtube.com 49184
+website www.youtube.com 46375
+www.facebook.com [44548, 40085, 45243, 49214, 47293] 226383
+www.gmail.com [79849, 80117, 76688, 80263, 74522] 391439
+www.google.com [104246, 105258, 100968, 101019, 93724] 505215
+www.youtube.com [42565, 50881, 32155, 49184, 46375] 221160
+www.github.com [26306, 22606, 24733, 18107, 23260] 115012
+www.quora.com [31235, 30455, 32456, 4366212, 32142] 4492500
+www.bing.com [298679, 287148, 298679, 287159, 282548] 1454213
+www.github.com 115012
+AttackPid: 12356
+website www.bing.com 20738171
+website www.bing.com 20611678
+website www.bing.com 20738171
+website www.bing.com 20611667
+website www.bing.com 20483925
+website www.facebook.com 15800376
+website www.facebook.com 15560176
+website www.facebook.com 15804768
+website www.facebook.com 14946461
+website www.gmail.com 16833261
+website www.facebook.com 15800014
+website www.github.com 13124451
+website www.gmail.com 16920089
+website www.github.com 13214950
+website www.gmail.com 17166909
+website www.github.com 12737415
+website www.github.com 13244053
+website www.github.com 13117362
+website www.quora.com 12956172
+website www.gmail.com 17038197
+website www.gmail.com 16912431
+website www.google.com 9726677
+website www.google.com 9729280
+website www.quora.com 14025408
+website www.youtube.com 15664725
+website www.youtube.com 15535164
+website www.youtube.com 15790482
+website www.youtube.com 14094997
+website www.youtube.com 15543549
+website www.quora.com 12121456
+website www.google.com 9727866
+website www.quora.com 12006464
+website www.google.com 9724310
+website www.google.com 9721301
+website www.quora.com 11351928
+www.facebook.com [15800376, 15560176, 15804768, 14946461, 15800014] 77911795
+www.gmail.com [16833261, 16920089, 17166909, 17038197, 16912431] 84870887
+www.google.com [9726677, 9729280, 9727866, 9724310, 9721301] 48629434
+www.youtube.com [15664725, 15535164, 15790482, 14094997, 15543549] 76628917
+www.github.com [13124451, 13214950, 12737415, 13244053, 13117362] 65438231
+www.quora.com [12956172, 14025408, 12121456, 12006464, 11351928] 62461428
+www.bing.com [20738171, 20611678, 20738171, 20611667, 20483925] 103183612
+www.google.com 48629434
+spying pids: 7003
+spying pids: 7057
+spying pids: 7118
+AttackPid: 7057
+AttackPid: 7003
+website www.bing.com 373785
+website www.bing.com 387454
+website www.bing.com 387454
+website www.bing.com 364046
+website www.facebook.com 42816
+website www.bing.com 373774
+website www.facebook.com 31290
+website www.facebook.com 40184
+website www.facebook.com 41931
+website www.facebook.com 46150
+website www.github.com 35785
+website www.github.com 34692
+website www.github.com 36981
+website www.github.com 38127
+website www.github.com 44881
+website www.gmail.com 87865
+website www.gmail.com 91637
+website www.gmail.com 91426
+website www.gmail.com 98382
+website www.gmail.com 84868
+website www.google.com 192758
+website www.google.com 197142
+website www.google.com 213730
+website www.google.com 209639
+website www.google.com 186080
+website www.quora.com 40468
+website www.quora.com 31326
+website www.quora.com 4611718
+website www.quora.com 50349
+website www.youtube.com 30080
+website www.youtube.com 26595
+website www.quora.com 69712
+website www.youtube.com 41158
+website www.youtube.com 33629
+website www.youtube.com 36649
+www.facebook.com [42816, 31290, 40184, 41931, 46150] 202371
+www.gmail.com [87865, 91637, 91426, 98382, 84868] 454178
+www.google.com [192758, 197142, 213730, 209639, 186080] 999349
+www.youtube.com [30080, 26595, 41158, 33629, 36649] 168111
+www.github.com [35785, 34692, 36981, 38127, 44881] 190466
+www.quora.com [40468, 31326, 4611718, 50349, 69712] 4803573
+www.bing.com [373785, 387454, 387454, 364046, 373774] 1886513
+www.youtube.com 168111
+website www.bing.com 334718
+website www.bing.com 346353
+website www.bing.com 334729
+website www.bing.com 346353
+website www.bing.com 322438
+website www.facebook.com 86442
+website www.facebook.com 65990
+website www.facebook.com 73360
+website www.facebook.com 95975
+website www.facebook.com 78818
+website www.github.com 36332
+website www.github.com 37795
+website www.github.com 26029
+website www.github.com 33023
+website www.github.com 47313
+website www.gmail.com 108928
+website www.gmail.com 109715
+website www.gmail.com 119088
+website www.gmail.com 119912
+website www.gmail.com 116276
+website www.google.com 51487
+website www.google.com 62597
+website www.google.com 58823
+website www.google.com 53031
+website www.google.com 59688
+website www.quora.com 37891
+website www.quora.com 4207368
+website www.quora.com 61633
+website www.quora.com 28992
+website www.quora.com 52473
+website www.youtube.com 81824
+website www.youtube.com 80727
+website www.youtube.com 52759
+website www.youtube.com 74935
+website www.youtube.com 79542
+www.facebook.com [86442, 65990, 73360, 95975, 78818] 400585
+www.gmail.com [108928, 109715, 119088, 119912, 116276] 573919
+www.google.com [51487, 62597, 58823, 53031, 59688] 285626
+www.youtube.com [81824, 80727, 52759, 74935, 79542] 369787
+www.github.com [36332, 37795, 26029, 33023, 47313] 180492
+www.quora.com [37891, 4207368, 61633, 28992, 52473] 4388357
+www.bing.com [334718, 346353, 334729, 346353, 322438] 1684591
+www.github.com 180492
+AttackPid: 7118
+website www.bing.com 1714279
+website www.bing.com 1734876
+website www.bing.com 1734876
+website www.bing.com 1714268
+website www.bing.com 1695838
+website www.facebook.com 974135
+website www.facebook.com 865486
+website www.facebook.com 944293
+website www.facebook.com 972281
+website www.github.com 658647
+website www.facebook.com 976697
+website www.github.com 643462
+website www.github.com 659192
+website www.github.com 647391
+website www.github.com 600599
+website www.gmail.com 1132716
+website www.gmail.com 1118862
+website www.gmail.com 1164798
+website www.gmail.com 1144912
+website www.gmail.com 1127240
+website www.google.com 305438
+website www.google.com 304422
+website www.google.com 303467
+website www.google.com 298929
+website www.google.com 301114
+website www.quora.com 624829
+website www.quora.com 750826
+website www.quora.com 3553306
+website www.quora.com 522491
+website www.quora.com 529312
+website www.youtube.com 935794
+website www.youtube.com 759980
+website www.youtube.com 955185
+website www.youtube.com 971525
+website www.youtube.com 938769
+www.facebook.com [974135, 865486, 944293, 972281, 976697] 4732892
+www.gmail.com [1132716, 1118862, 1164798, 1144912, 1127240] 5688528
+www.google.com [305438, 304422, 303467, 298929, 301114] 1513370
+www.youtube.com [935794, 759980, 955185, 971525, 938769] 4561253
+www.github.com [658647, 643462, 659192, 647391, 600599] 3209291
+www.quora.com [624829, 750826, 3553306, 522491, 529312] 5980764
+www.bing.com [1714279, 1734876, 1734876, 1714268, 1695838] 8594137
+www.google.com 1513370
+spying pids: 21637
+spying pids: 21670
+AttackPid: 21637
+website www.bing.com 296716
+website www.bing.com 285705
+website www.bing.com 285716
+website www.bing.com 296716
+website www.bing.com 279505
+website www.facebook.com 66068
+website www.facebook.com 48210
+website www.facebook.com 61205
+website www.facebook.com 69744
+website www.facebook.com 65435
+website www.github.com 31413
+website www.github.com 28974
+website www.github.com 25903
+website www.github.com 32671
+website www.github.com 31973
+website www.gmail.com 92828
+website www.gmail.com 93295
+website www.gmail.com 94901
+website www.gmail.com 92995
+website www.google.com 66911
+website www.gmail.com 90911
+website www.google.com 62567
+website www.google.com 61251
+website www.google.com 62369
+website www.google.com 71498
+website www.quora.com 37324
+website www.quora.com 44009
+website www.quora.com 4221898
+website www.quora.com 42836
+website www.youtube.com 59188
+website www.quora.com 26900
+website www.youtube.com 43793
+website www.youtube.com 63870
+website www.youtube.com 62392
+website www.youtube.com 58879
+www.facebook.com [66068, 48210, 61205, 69744, 65435] 310662
+www.gmail.com [92828, 93295, 94901, 92995, 90911] 464930
+www.google.com [66911, 62567, 61251, 62369, 71498] 324596
+www.youtube.com [59188, 43793, 63870, 62392, 58879] 288122
+www.github.com [31413, 28974, 25903, 32671, 31973] 150934
+www.quora.com [37324, 44009, 4221898, 42836, 26900] 4372967
+www.bing.com [296716, 285705, 285716, 296716, 279505] 1444358
+www.github.com 150934
+spying pids: 21944
+AttackPid: 21670
+website www.bing.com 2278321
+website www.bing.com 2249292
+website www.bing.com 2249281
+website www.bing.com 2222147
+website www.bing.com 2278321
+website www.facebook.com 1284826
+website www.facebook.com 1160801
+website www.facebook.com 1287659
+website www.facebook.com 1249409
+website www.facebook.com 1282950
+website www.github.com 938029
+website www.github.com 919879
+website www.github.com 935903
+website www.gmail.com 1464003
+website www.github.com 923048
+website www.gmail.com 1521407
+website www.gmail.com 1474408
+website www.gmail.com 1478302
+website www.github.com 877515
+website www.gmail.com 1497197
+website www.google.com 548241
+website www.google.com 546434
+website www.google.com 545699
+website www.quora.com 903730
+website www.quora.com 3450375
+website www.google.com 547791
+website www.quora.com 1035131
+website www.quora.com 788352
+website www.quora.com 801179
+website www.google.com 545495
+website www.youtube.com 1040337
+website www.youtube.com 1263305
+website www.youtube.com 1240810
+website www.youtube.com 1284806
+website www.youtube.com 1244433
+www.facebook.com [1284826, 1160801, 1287659, 1249409, 1282950] 6265645
+www.gmail.com [1464003, 1521407, 1474408, 1478302, 1497197] 7435317
+www.google.com [548241, 546434, 545699, 547791, 545495] 2733660
+www.youtube.com [1040337, 1263305, 1240810, 1284806, 1244433] 6073691
+www.github.com [938029, 919879, 935903, 923048, 877515] 4594374
+www.quora.com [903730, 3450375, 1035131, 788352, 801179] 6978767
+www.bing.com [2278321, 2249292, 2249281, 2222147, 2278321] 11277362
+www.google.com 2733660
+AttackPid: 21944
+website www.bing.com 1956241
+website www.bing.com 1956230
+website www.bing.com 1979078
+website www.bing.com 1979078
+website www.bing.com 1936008
+website www.facebook.com 1161975
+website www.facebook.com 1041976
+website www.facebook.com 1129946
+website www.facebook.com 1160162
+website www.facebook.com 1164106
+website www.github.com 822986
+website www.github.com 818657
+website www.github.com 805067
+website www.github.com 809159
+website www.gmail.com 1315425
+website www.github.com 759463
+website www.gmail.com 1330020
+website www.gmail.com 1364137
+website www.gmail.com 1343173
+website www.gmail.com 1323850
+website www.google.com 412855
+website www.google.com 415726
+website www.google.com 421139
+website www.google.com 416739
+website www.google.com 404223
+website www.quora.com 786363
+website www.quora.com 918643
+website www.quora.com 3753828
+website www.youtube.com 1116540
+website www.quora.com 668133
+website www.quora.com 683734
+website www.youtube.com 931560
+website www.youtube.com 1138600
+website www.youtube.com 1158521
+website www.youtube.com 1122204
+www.facebook.com [1161975, 1041976, 1129946, 1160162, 1164106] 5658165
+www.gmail.com [1315425, 1330020, 1364137, 1343173, 1323850] 6676605
+www.google.com [412855, 415726, 421139, 416739, 404223] 2070682
+www.youtube.com [1116540, 931560, 1138600, 1158521, 1122204] 5467425
+www.github.com [822986, 818657, 805067, 809159, 759463] 4015332
+www.quora.com [786363, 918643, 3753828, 668133, 683734] 6810701
+www.bing.com [1956241, 1956230, 1979078, 1979078, 1936008] 9806635
+www.google.com 2070682
+spying pids: 4754
+AttackPid: 4754
+website www.bing.com 3438594
+website www.bing.com 3390949
+website www.bing.com 3390938
+website www.bing.com 3346138
+website www.bing.com 3438594
+website www.facebook.com 1572394
+website www.facebook.com 1781369
+website www.facebook.com 1720330
+website www.facebook.com 1779568
+website www.github.com 1183978
+website www.facebook.com 1784536
+website www.github.com 1211449
+website www.github.com 1206097
+website www.github.com 1185545
+website www.gmail.com 2095070
+website www.github.com 1111222
+website www.gmail.com 2115365
+website www.gmail.com 2121110
+website www.gmail.com 2196509
+website www.google.com 553030
+website www.google.com 561591
+website www.gmail.com 2155463
+website www.google.com 551200
+website www.google.com 548450
+website www.quora.com 1149211
+website www.google.com 555402
+website www.quora.com 969380
+website www.youtube.com 1710772
+website www.quora.com 1367923
+website www.youtube.com 1746132
+website www.quora.com 998465
+website www.youtube.com 1375159
+website www.quora.com 3852028
+website www.youtube.com 1779948
+website www.youtube.com 1714117
+www.facebook.com [1572394, 1781369, 1720330, 1779568, 1784536] 8638197
+www.gmail.com [2095070, 2115365, 2121110, 2196509, 2155463] 10683517
+www.google.com [553030, 561591, 551200, 548450, 555402] 2769673
+www.youtube.com [1710772, 1746132, 1375159, 1779948, 1714117] 8326128
+www.github.com [1183978, 1211449, 1206097, 1185545, 1111222] 5898291
+www.quora.com [1149211, 969380, 1367923, 998465, 3852028] 8337007
+www.bing.com [3438594, 3390949, 3390938, 3346138, 3438594] 17005213
+www.google.com 2769673

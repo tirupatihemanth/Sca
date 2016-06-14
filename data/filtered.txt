@@ -1,7 +1,1 @@
-www.google.com
-www.gmail.com
-www.facebook.com
 www.github.com
-www.youtube.com
-www.quora.com
-www.bing.com
